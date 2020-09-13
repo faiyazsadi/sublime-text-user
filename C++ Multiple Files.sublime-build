@@ -1,0 +1,14 @@
+{
+    "shell_cmd": "make && start cmd /c \"output & echo. & pause\" ",
+    "variants":
+    [
+        {
+            "name": "Run",
+            "shell_cmd": "start cmd /c \"output & echo. & pause\" "
+        },
+        {
+            "name": "Clean",
+            "shell_cmd": "make clean"
+        }
+    ]
+}

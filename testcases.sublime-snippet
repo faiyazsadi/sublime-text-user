@@ -1,0 +1,68 @@
+<snippet>
+    <content><![CDATA[#include <bits/stdc++.h>
+
+using namespace std;
+
+#define    imie(x); cerr << "[" << #x << " is: " << x << "]" << "\n";
+#define    all(a) (a).begin(), (a).end()
+#define    fi first
+#define    se second
+
+using lld = long long;
+using pii = pair<int, int>;
+
+template<class A, class B>
+ostream& operator << (ostream& output, const pair<A, B>& p) {
+    output << "(" << p.first << ", " << p.second << ")";
+    return output;
+}
+
+template<class A, class B>
+ostream& operator << (ostream& output, const map<A, B>& m) {
+    for(auto it = m.begin(); it != m.end(); ++it) {
+        output << "[" << it->first << ", " << it->second << "]" << endl;
+    }
+    return output;
+}
+
+template<class A>
+ostream& operator << (ostream& output, const vector<A>& a) {
+    output << "[";
+    for(auto it = a.begin(); it != a.end(); ++it) {
+        if(it != a.begin()) {
+            output << ", ";
+        }
+        output << *it;
+    }
+    output << "]";
+    return output;
+}
+
+
+
+void solve() {
+    ${0}
+
+    
+}
+
+
+
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    
+    int T = 1;
+    //cin >> T;${1}
+    while(T--) {
+        solve();
+    }
+
+    return 0;
+}]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>test</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.cpp</scope> -->
+</snippet>
