@@ -6,11 +6,11 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"ActualVim",
 		"Vintage"
 	],
+	"shift_tab_unindent": true,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"shift_tab_unindent": true,
+	// "trim_automatic_white_space": false,
+	// "trim_trailing_white_space_on_save": true
 }
